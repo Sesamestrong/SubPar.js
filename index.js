@@ -98,3 +98,4 @@ let counter = 0;
 console.log("\n\n");
 console.log(parsed.returned.map(i => colors[["red", "green"][counter++ % 2]](i)).join(""));
 console.log(thread);
+module.exports={Parser,isEqualTo};
