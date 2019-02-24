@@ -1,0 +1,20 @@
+{
+  "name": "subparjs",
+  "version": "1.0.0",
+  "description": "A sub-par parser combinator library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parser",
+    "parser",
+    "combinator",
+    "mediocre"
+  ],
+  "author": "Andrew Healey",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}
