@@ -1,4 +1,4 @@
-# js
+# Subpar.js
 
 A subpar parser combinator library for JavaScript
 
