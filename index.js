@@ -5,7 +5,7 @@ var colors = require("colors/safe");
  * @param equality {function} - Consumes and parses an input - supposed to be the most basic of all operations
  * @param name {string} - The name of the parser, for debugging purposes - optional.
  */
-function Parser(equality, name = "BasicParser") {
+function Parser(equality, name = equality) {
     let ret = {
         equality: equality,
         name: name
@@ -89,7 +89,7 @@ function isEqualTo(i, quiet = false) {
         }
     };
 }
-/*
+
 let oneParser = Parser(isEqualTo("Andrew is cool!", false), "Coolness");
 let nextParser = oneParser.then(Parser(isEqualTo(" Also, ", false), "Space")).then(Parser(isEqualTo("other people", false), "People")).then(Parser(isEqualTo(" are cool as well!"), "ShareCoolness").or(Parser(isEqualTo("!"),"!")));
 let thread = [];
@@ -98,5 +98,5 @@ let counter = 0;
 console.log("\n\n");
 console.log(parsed.returned.map(i => colors[["red", "green"][counter++ % 2]](i)).join(""));
 console.log(thread);
-*/
+
 module.exports={Parser,str:isEqualTo};

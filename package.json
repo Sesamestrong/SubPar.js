@@ -1,6 +1,6 @@
 {
   "name": "subparjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A sub-par parser combinator library.",
   "main": "index.js",
   "scripts": {
