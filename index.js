@@ -89,7 +89,7 @@ function isEqualTo(i, quiet = false) {
         }
     };
 }
-
+/*
 let oneParser = Parser(isEqualTo("Andrew is cool!", false), "Coolness");
 let nextParser = oneParser.then(Parser(isEqualTo(" Also, ", false), "Space")).then(Parser(isEqualTo("other people", false), "People")).then(Parser(isEqualTo(" are cool as well!"), "ShareCoolness").or(Parser(isEqualTo("!"),"!")));
 let thread = [];
@@ -98,4 +98,5 @@ let counter = 0;
 console.log("\n\n");
 console.log(parsed.returned.map(i => colors[["red", "green"][counter++ % 2]](i)).join(""));
 console.log(thread);
-module.exports={Parser,isEqualTo};
+*/
+module.exports={Parser,str:isEqualTo};
