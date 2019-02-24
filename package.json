@@ -1,24 +1,22 @@
 {
   "name": "subparjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A sub-par parser combinator library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "parser",
+    "javascript",
     "parser",
     "combinator",
     "mediocre"
   ],
-  "repository":{
-    "type":"git",
-    "url":"Sesamestrong/SubPar.js"
+  "repository": {
+    "type": "git",
+    "url": "Sesamestrong/SubPar.js"
   },
   "author": "Andrew Healey",
   "license": "ISC",
-  "dependencies": {
-    "colors": "^1.3.3"
-  }
+  "dependencies": {}
 }
