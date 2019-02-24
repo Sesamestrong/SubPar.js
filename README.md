@@ -2,7 +2,7 @@
 
 A subpar parser combinator library for JavaScript
 
-##Usage
+## Usage
 
 ```js
 const {Parser,string}=require("subparjs");
