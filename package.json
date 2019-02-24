@@ -12,6 +12,10 @@
     "combinator",
     "mediocre"
   ],
+  "repository":{
+    "type":"git",
+    "url":"Sesamestrong/SubPar.js"
+  },
   "author": "Andrew Healey",
   "license": "ISC",
   "dependencies": {
